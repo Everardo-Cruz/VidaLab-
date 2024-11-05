@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Análisis Clínicos</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img class="logo" src="/imageles.jpg/vida_lab_d-ai-brush-removebg-hzhd7ck-removebg-preview (1).png" alt="">
+            <h1 >Laboratarios de analisis clinicos <q></q> vida lab</h1>
+            <nav>
+                <ul>
+
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a  href="#testimonials">Testimonios</a></li>
+                    <li><a target="_blank" href="https://w.app/VidaLab">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="/imageles.jpg/Mi video-2.mp4" type="video/mp4">
+            
+        </video>
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h2>Confianza y Precisión en cada Análisis</h2>
+                <p>Ofrecemos un servicio de análisis clínicos confiable y profesional para cuidar tu salud.</p>
+                <a target="_blank" href="https://w.app/VidaLab" class="cta-btn">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <h2>Sobre Nosotros</h2>
+        <p>Nuestro portafolio de servicios incluye más de 360 pruebas de laboratorio diseñadas para brindar un apoyo integral a los especialistas en la prevención, diagnóstico y tratamiento de diversas enfermedades. Contamos con pruebas como la química sanguínea completa, que proporciona una visión detallada de los niveles de glucosa, lípidos y electrolitos en el cuerpo, así como el examen general de orina, esencial para evaluar la función renal y detectar infecciones u otras anomalías. También realizamos pruebas de embarazo, entre otros análisis especializados, todos con altos estándares de precisión y calidad para asegurar resultados confiables que faciliten el cuidado de la salud de nuestros pacientes.</p>
+         
+    </section>
+
+    <section id="services" class="section-padding">
+        <h2>Servicios de Análisis Clínicos</h2>
+        <div class="service-card-container">
+            <div class="service-card">
+                <h3>Hemograma Completo</h3>
+                <p>Evaluación completa de los componentes de la sangre para un diagnóstico detallado.</p>
+                <img class="imagenesLab" src="https://www.protegerips.com/wp-content/uploads/2024/01/plaquetas.webp" alt="">
+            </div>
+            <div class="service-card">
+                <h3>Perfil Lipídico</h3>
+                <p>Examen para medir los niveles de lípidos en sangre y evaluar la salud cardiovascular.</p>
+                <img class="imagenesLab" src="https://laboratoriosventura.com/wp-content/uploads/2023/10/images-2.jpeg" alt="">
+            </div>
+            <div class="service-card">
+                <h3>Prueba de Glucosa</h3>
+                <p>Medición de glucosa en sangre para el monitoreo y diagnóstico de diabetes.
+                </p>
+                <div>
+                    <img class="imagenesLab" src="https://topfarma.es/wp-content/uploads/2023/07/blog-test-glucosa.png" alt="">
+                </div>
+            </div>
+            <div class="service-card">
+                <h3>Examen de Orina</h3>
+                <p>Estudio completo de orina para detectar infecciones y enfermedades renales.</p>
+                <img class="imagenesLab" src="https://www.mdsaude.com/wp-content/uploads/eas-imagem2-1200x675.jpg" alt="">
+            </div>
+            <div class="service-card">
+                <h3>Panel de Hormonas</h3>
+                <p>Análisis para medir diferentes hormonas, útil para diagnóstico endocrino.</p>
+                <img class="imagenesLab" src="https://ieqfb.com/wp-content/uploads/ana%CC%81lisis-hormonal.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding">
+        <h2>Testimonios</h2>
+        <div class="testimonial">
+            <p>"Excelente servicio, muy profesional y preciso. Lo recomiendo sin duda."</p>
+            <span>- María González</span>
+        </div>
+        <div class="testimonial">
+            <p>"Resultados rápidos y atención amable, siempre acudo a ellos."</p>
+            <span>- Juan Pérez</span>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2>Contáctanos</h2>
+        <form id="contactForm" onsubmit="return handleSubmit()">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="formResponse"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Centro de Análisis Clínicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
