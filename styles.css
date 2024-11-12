@@ -20,8 +20,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(181, 0, 81);
-  background: linear-gradient(0deg, rgba(181, 0, 81, 0.5886729692) 0%, rgb(141, 194, 25) 100%); /* Cambia este color si prefieres otro de fondo */
+  background-color: rgba(141, 194, 25, 0.4352941176); /* Cambia este color si prefieres otro de fondo */
   padding: 10px 0;
   display: flex;
   align-items: center;
